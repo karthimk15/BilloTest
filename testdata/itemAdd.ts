@@ -16,7 +16,7 @@ export interface ItemDetails {
 export interface ItemData {
   Itemdetails: ItemDetails;
 }
-const itemnamenv = process.env.itemname as string;
+const itemnamenv = process.env.ITEMNAME as string;
 export const itemData: ItemData = {
   Itemdetails: {
     Itemname: itemnamenv,
