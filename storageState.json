@@ -1,0 +1,42 @@
+{
+  "cookies": [
+    {
+      "name": "rzp_unified_session_id",
+      "value": "RpZAKmErp28oVV",
+      "domain": "billo-app.pages.dev",
+      "path": "/",
+      "expires": 1765296726,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://billo-app.pages.dev",
+      "localStorage": [
+        {
+          "name": "rzp_device_id",
+          "value": "1.a3d8a9f170ad9df4488219152082d690894fd8a6.1765176585949.32867085"
+        },
+        {
+          "name": "token",
+          "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2Mzc5MDI3OTI0Iiwicm9sZSI6InNob3Bvd25lciIsImlkIjoxLCJ0eXBlIjoiYWNjZXNzIiwiaWF0IjoxNzY1Mjk1NzcyLCJleHAiOjE3NjU5MDA1NzJ9.kYXrCzkeJ2mcUdYD8013pkj7u9A4SADIoJWurLCASIs"
+        },
+        {
+          "name": "rzp_checkout_anon_id",
+          "value": "f698b1df68494c25b6944b6a9819e222"
+        }
+      ]
+    },
+    {
+      "origin": "https://api.razorpay.com",
+      "localStorage": [
+        {
+          "name": "rzp_device_id",
+          "value": "1.a3d8a9f170ad9df4488219152082d690894fd8a6.1765176586628.51966832"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+import * as dotenv from 'dotenv';
+
+dotenv.config();
+
+export interface ShopOwnerLogin {
+  role: string;
+  phonenumber: string;
+  password: string;
+}
+
+export interface User {
+  name: string;
+  phone: number;
+}
+
+export interface AppData {
+  shopOwnerLogin: ShopOwnerLogin;
+  user: User;
+}
+const phone = process.env.phone as string;
+const password = process.env.password as string;
+export const appData: AppData = {
+  shopOwnerLogin: {
+    role: "ShopOwner",
+    phonenumber: phone,
+    password: password
+  },
+  user: {
+    name: "",
+    phone: 0
+  }
+};
