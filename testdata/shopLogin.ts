@@ -1,6 +1,9 @@
 import * as dotenv from 'dotenv';
 
-dotenv.config();
+if (!process.env.CI) {
+  require("dotenv").config();
+}
+
 
 export interface ShopOwnerLogin {
   role: string;

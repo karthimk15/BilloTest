@@ -1,5 +1,8 @@
 import * as dotenv from 'dotenv';
-dotenv.config();
+if (!process.env.CI) {
+  require("dotenv").config();
+}
+
 export interface ItemDetails {
   Itemname: string;
   SKU: string;
