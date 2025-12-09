@@ -12,7 +12,7 @@ jobs:
     env:
       PHONE: ${{ secrets.PHONE }}
       PASSWORD: ${{ secrets.PASSWORD }}
-      BASE_URL: ${{ secrets.BASE_URL }}
+      ITEMNAME: ${{ secrets.ITEMNAME }}
 
     steps:
       - name: Checkout
