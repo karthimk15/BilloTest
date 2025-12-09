@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "smoke": "playwright test tests/smoke/shopSmoke.test --headed"
+    "smoke": "playwright test tests/smoke/shopSmoke.test"
   },
   "keywords": [],
   "author": "",
