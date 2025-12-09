@@ -21,7 +21,7 @@ export async function loginHelp(page: Page) {
       }
 
       // Reload the page or wait before retry
-      await page.waitForTimeout(2000);
+      await page.waitForTimeout(3000);
     }
   }
 
